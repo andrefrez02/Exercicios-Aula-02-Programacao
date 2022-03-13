@@ -1,5 +1,3 @@
-import math
-
 a, b, c = 0, 0, 0
 aa, bb, dd, raizz, ff, gg = 0, 0, 0, 0, 0, 0
 x1, x2 = 0, 0
