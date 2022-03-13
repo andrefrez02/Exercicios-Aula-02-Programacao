@@ -8,3 +8,4 @@ p = 2 * (b + h)
 a = b * h
 
 print(f'A Área do retângulo é de: {a}cm².\nE o Perimetro do retângulo é de: {p}cm.')
+input()
