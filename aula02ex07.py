@@ -8,5 +8,5 @@ C = float(input('Digite o valor da temperatura em ° Celsius: '))
 F = eval('1.8 * C + 32')
 K = eval('C + 273')
 
-print(f'\nA temperatura {C}°C convertido em Fahrenheit fica: {F}°F e em Kelvin fica: {K}°K')
+print(f'\nA temperatura {C}°C convertido em Fahrenheit fica: {F}°F e em Kelvin fica: {K}K')
 input()

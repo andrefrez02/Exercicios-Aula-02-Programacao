@@ -30,17 +30,17 @@ raizz = dd ** 0.5
 raizz = float(raizz.real)
 gg = 2 * a
 ff = +(-b)
-print(f'x = {ff} {ml} {raizz:0.3} / {gg}\n')
+print(f'x = {ff} {ml} {raizz:.2f} / {gg}\n')
 hh = eval('ff+raizz')
 x1 = hh / gg
 kk = eval('ff-raizz')
 x2 = kk / gg
 
-print(f'x¹ = {ff} + {raizz:0.3} / {gg}')
-print(f'x¹ = {hh:0.3} / {gg}')
-print(f'x¹ = {x1:0.3}\n')
-print(f'x² = {ff} - {raizz:0.3} / {gg}')
-print(f'x² = {kk:0.3} / {gg}')
-print(f'x² = {x2:0.3}\n')
-print(f'S = \u007B{x1:0.3}, {x2:0.3}\u007D')
+print(f'x¹ = {ff} + {raizz:.2f} / {gg}')
+print(f'x¹ = {hh:.2f} / {gg}')
+print(f'x¹ = {x1:.2f}\n')
+print(f'x² = {ff} - {raizz:.2f} / {gg}')
+print(f'x² = {kk:.2f} / {gg}')
+print(f'x² = {x2:.2f}\n')
+print(f'S = \u007B{x1:.2f}, {x2:.2f}\u007D')
 input()
