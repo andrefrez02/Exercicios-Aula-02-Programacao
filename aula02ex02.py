@@ -7,3 +7,4 @@ acr = float(sal * cent)
 salF = float(sal + acr)
 print(f'\nO seu salário é de: R${sal}, a porcentagem da sua comissão é de: {int(cent * 100)}%.\n' +
       f'{int(cent * 100)}% de R${sal} é igual a R${acr}, no fim o seu sálario será de R${salF}.\n')
+input()
